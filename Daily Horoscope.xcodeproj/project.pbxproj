@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		00070A71248AB02700EDA5F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00070A6F248AB02700EDA5F5 /* Main.storyboard */; };
 		00070A73248AB02800EDA5F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00070A72248AB02800EDA5F5 /* Assets.xcassets */; };
 		00070A76248AB02800EDA5F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00070A74248AB02800EDA5F5 /* LaunchScreen.storyboard */; };
+		00070A7F248AB0CA00EDA5F5 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 00070A7E248AB0CA00EDA5F5 /* SwiftSoup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00070A7F248AB0CA00EDA5F5 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "Daily Horoscope";
+			packageProductDependencies = (
+				00070A7E248AB0CA00EDA5F5 /* SwiftSoup */,
+			);
 			productName = "Daily Horoscope";
 			productReference = 00070A66248AB02700EDA5F5 /* Daily Horoscope.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 00070A5D248AB02700EDA5F5;
+			packageReferences = (
+				00070A7D248AB0CA00EDA5F5 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 00070A67248AB02700EDA5F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -338,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		00070A7D248AB0CA00EDA5F5 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00070A7E248AB0CA00EDA5F5 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00070A7D248AB0CA00EDA5F5 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 00070A5E248AB02700EDA5F5 /* Project object */;
 }
