@@ -14,6 +14,7 @@
 		00070A73248AB02800EDA5F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00070A72248AB02800EDA5F5 /* Assets.xcassets */; };
 		00070A76248AB02800EDA5F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00070A74248AB02800EDA5F5 /* LaunchScreen.storyboard */; };
 		00070A7F248AB0CA00EDA5F5 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 00070A7E248AB0CA00EDA5F5 /* SwiftSoup */; };
+		00070A81248B333A00EDA5F5 /* HoroscopeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00070A80248B333A00EDA5F5 /* HoroscopeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		00070A72248AB02800EDA5F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00070A75248AB02800EDA5F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00070A77248AB02800EDA5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00070A80248B333A00EDA5F5 /* HoroscopeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				00070A69248AB02700EDA5F5 /* AppDelegate.swift */,
 				00070A6B248AB02700EDA5F5 /* SceneDelegate.swift */,
 				00070A6D248AB02700EDA5F5 /* ViewController.swift */,
+				00070A80248B333A00EDA5F5 /* HoroscopeVC.swift */,
 				00070A6F248AB02700EDA5F5 /* Main.storyboard */,
 				00070A72248AB02800EDA5F5 /* Assets.xcassets */,
 				00070A74248AB02800EDA5F5 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				00070A6E248AB02700EDA5F5 /* ViewController.swift in Sources */,
 				00070A6A248AB02700EDA5F5 /* AppDelegate.swift in Sources */,
 				00070A6C248AB02700EDA5F5 /* SceneDelegate.swift in Sources */,
+				00070A81248B333A00EDA5F5 /* HoroscopeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
